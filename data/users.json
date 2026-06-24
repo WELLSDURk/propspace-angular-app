@@ -1,0 +1,26 @@
+[
+  {
+    "id": "agent-1",
+    "username": "sarah_agent",
+    "email": "sarah@propspace.com",
+    "passwordHash": "$2a$10$f66I8xJz3ClyzIlyb28Biuo9W63u6tqW877mYj368b6l2I/ZqS1B.",
+    "fullName": "Sarah Jenkins",
+    "phoneNumber": "+1 (555) 321-4567",
+    "avatarUrl": "https://api.dicebear.com/7.x/adventurer/svg?seed=Sarah",
+    "bio": "Premier Real Estate Agent with over 8 years of luxury residential sales experience. Committed to finding your perfect home.",
+    "createdAt": "2026-06-24T00:25:51.477Z",
+    "updatedAt": "2026-06-24T00:25:51.480Z"
+  },
+  {
+    "id": "511ace11-f4f0-484d-804b-261456af4f26",
+    "username": "modipert",
+    "email": "tata@gmail.com",
+    "passwordHash": "$2b$10$1HJWUdxMDmBpBZesGCDce.kv5V65gVJciCIwS9q0YZbpzKJnUkt7q",
+    "fullName": "tata",
+    "phoneNumber": "677131010",
+    "avatarUrl": "https://api.dicebear.com/7.x/adventurer/svg?seed=modipert",
+    "bio": "cool",
+    "createdAt": "2026-06-24T00:27:49.804Z",
+    "updatedAt": "2026-06-24T00:27:49.804Z"
+  }
+]
