@@ -44,8 +44,7 @@ Start the interactive development server:
 ```bash
 npm run dev
 ```
-*The terminal will output the local dev URL (typically `http://localhost:3000`). Open it in your browser to test and view live hot-reloaded changes.*
-
+*The terminal will output the local dev URL (typically http://localhost:3000 ).
 ### 5. Build for Production
 
 Compile both the frontend React client and bundle the Express server into optimized production-ready code:
