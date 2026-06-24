@@ -2,7 +2,7 @@ import { User, Property, FilterParams } from '../types';
 
 const API_BASE = '/api';
 
-// Centered token storage helper
+
 export function getAuthToken(): string | null {
   return localStorage.getItem('propspace_token');
 }
@@ -15,7 +15,6 @@ export function setAuthToken(token: string | null): void {
   }
 }
 
-// Custom Fetch Wrapper implementing the "Global interceptor/API wrapper" guideline
 async function apiFetch(endpoint: string, options: RequestInit = {}): Promise<any> {
   const token = getAuthToken();
   const headers = new Headers(options.headers || {});
