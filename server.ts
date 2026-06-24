@@ -10,28 +10,25 @@ async function startServer() {
   const app = express();
   const PORT = 3000;
 
-  // Initialize JSON file-based database
   initDatabase();
 
-  // Basic Middlewares
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
 
-  // API Endpoints
+ 
   app.get('/api/health', (req, res) => {
     res.json({ status: 'ok', time: new Date().toISOString() });
   });
 
-  // Register routing namespaces
+  
   app.use('/api/auth', authRoutes);
   app.use('/api/users', userRoutes);
   app.use('/api/properties', propertyRoutes);
 
-  // Extra fallback mapping for properties user feed
-  // Support both endpoint definitions from spec: /api/properties/user and /api/properties/user/listings
+user/listings
   app.use('/api/properties/user', propertyRoutes);
 
-  // Serve static files / Vite asset builder
+  
   if (process.env.NODE_ENV !== 'production') {
     const vite = await createViteServer({
       server: { middlewareMode: true },
