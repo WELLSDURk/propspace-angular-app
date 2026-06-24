@@ -107,25 +107,3 @@ To push your local code repository to GitHub, follow these step-by-step commands
     *   **Do NOT** check the box for "Add a README file" (since we have already created this one).
     *   Click **Create repository**.
 
-5.  **Link your local repository and push**:
-    *   Copy the remote URL of your new GitHub repository.
-    *   In your VS Code terminal, run:
-    ```bash
-    # Replace the URL below with your actual GitHub repository URL
-    git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-    
-    # Set the main branch
-    git branch -M main
-    
-    # Push the code to your GitHub main branch
-    git push -u origin main
-    ```
-
----
-
-## 🇨🇲 Cameroon Location Context Included
-
-*   **Douala**: Bonapriso, Denver, Bonamoussadi, Bassa Industrial Zone, Akwa.
-*   **Yaoundé**: Bastos, Golf Club District, Santa Barbara, Odza, Messassi.
-*   **Buea**: Molyko Road, Great Soppo.
-*   **Kribi**: Ngoyè Beach.
